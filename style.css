@@ -1,0 +1,95 @@
+body {
+  box-sizing: border-box;
+  background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: "Russo One", sans-serif;
+  font-weight: 600;
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+  transition: all 150ms ease-in;
+}
+
+.nav-item a:hover {
+  transform: scale(1.2);
+  color: rgb(104, 74, 34);
+}
+
+.intro {
+  background-color: rgb(255, 251, 251);
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  filter: blur(1px);
+  padding-left: 1.5rem;
+  color: black;
+}
+
+.container.nav-item {
+  color: black;
+  background-color: silver;
+  width: 100%;
+  box-shadow: tan 5px 5px 5px;
+}
+border-dark {
+}
+
+a[href*="Disabled"] {
+  display: none;
+}
+
+img[src*="./innooo.jpg"] {
+  width: auto;
+  height: auto;
+}
+
+.text-c {
+  color: rgb(255, 251, 251);
+}
+
+.container.newsletter {
+  margin: 8rem auto;
+  line-height: 10rem;
+  border-right: 1px solid white;
+  background-color: rgba(58, 50, 34, 0.2);
+}
+
+h3 {
+  color: rgb(255, 251, 251);
+  padding-top: 3rem;
+}
+
+a.button {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: rgb(255, 255, 251);
+  padding-bottom: 1rem;
+  border-bottom: 3px solid rgb(247, 241, 241);
+}
+
+a.button:hover {
+  color: tan;
+}
+
+.fbar {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  filter: saturate(3rem);
+  color: rgb(97, 91, 91);
+  margin-top: -5rem;
+}
